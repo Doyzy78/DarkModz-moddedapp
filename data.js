@@ -15,7 +15,7 @@ const appData = [
       "✅ Menu Builder"
     ]
   },
-{
+  {
     id: "Typing Engine",
     name: "Typing Engine",
     version: "2.0",
@@ -27,6 +27,23 @@ const appData = [
     modFeatures: [
       "✅ Automatic Type",
       "✅ Accurate you Want Value"
+    ]
+  },
+  {
+    id: "Sb HookGen",
+    name: "Sb HookGen Pro ",
+    version: "4.0",
+    size: "15 MB",
+    icon: "Sb.png",
+    apk: "Sb HookGen_4.0.apk",
+    developer: "Sb HookGen / Developed by @Gura Mods",
+    updated: "July 2025", 
+    modFeatures: [
+      "✅Normal Hooking",
+      "✅Field Hooking",
+      "✅Patch Generator",
+      "✅Auto Update Hooking",
+      "✅ SeekBar Hooking"
     ]
   }
 ];
