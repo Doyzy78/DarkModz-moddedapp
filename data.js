@@ -14,7 +14,7 @@ const appData = [
       "✅ SCRIPT Normal",
       "✅ Menu Builder"
     ]
-  }
+  },
 {
     id: "Typing Engine",
     name: "Typing Engine",
