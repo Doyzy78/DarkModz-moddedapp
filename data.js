@@ -15,4 +15,18 @@ const appData = [
       "✅ Menu Builder"
     ]
   }
+{
+    id: "Typing Engine",
+    name: "Typing Engine",
+    version: "2.0",
+    size: "10 MB",
+    icon: "type.png",
+    apk: "Typing Engine_1.0.apk",
+    developer: "Typing Engine / Developed by Joker Devs",
+    updated: "July 2025", 
+    modFeatures: [
+      "✅ Automatic Type",
+      "✅ Accurate you Want Value"
+    ]
+  }
 ];
