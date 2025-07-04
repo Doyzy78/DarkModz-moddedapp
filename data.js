@@ -36,7 +36,7 @@ const appData = [
     size: "15 MB",
     icon: "Sb.png",
     apk: "Sb HookGen_4.0.apk",
-    developer: "Sb HookGen / Developed by @Gura Mods",
+    developer: "Sb HookGen / Developed by Sb Mods",
     updated: "July 2025", 
     modFeatures: [
       "✅Normal Hooking",
