@@ -1,17 +1,18 @@
 const appData = [
   {
-    id: "NetMirror",
-    name: "NetMirror Pro",
-    version: "3.2",
-    size: "150 MB",
-    icon: "Net.png",
-    apk: "NetMirror_3.2.apk",
-    developer: "NetMirror. / Modded by Joker Devs",
+    id: "GG TOOLS",
+    name: "GG TOOLS Pro",
+    version: "2.0",
+    size: "15 MB",
+    icon: "icon.png",
+    apk: "GG TOOLS_2.0.apk",
+    developer: "GG TOOLs. / Developed by Joker Devs",
     updated: "July 2025", 
     modFeatures: [
-      "✅ No Ads",
-      "✅ No Login Problem",
-      "✅ All Feature Unlocked"
+      "✅ Value to Arm",
+      "✅ AutoUpdate Script",
+      "✅ SCRIPT Normal",
+      "✅ Menu Builder"
     ]
   }
 ];
