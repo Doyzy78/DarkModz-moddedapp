@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DarkModz-Apk</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>DarkModz-apk-Modded</h1>
+    <input type="text" id="search" placeholder="Search APKs...">
+  </header>
+
+  <main>
+    <section class="apk-list" id="apkList"></section>
+  </main>
+
+  <footer>
+    <p>© 2025 Modded Apk </p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script>
+    const apkList = document.getElementById("apkList");
+
+    appData.forEach(app => {
+      const card = document.createElement("div");
+      card.className = "apk-card";
+      card.innerHTML = `
+        <img src="${app.icon}" alt="App Icon">
+        <h2>${app.name}</h2>
+        <p>Version: ${app.version}</p>
+        <p>Size: ${app.size}</p>
+        <ul class="mod-features">
+          ${app.modFeatures.map(feature => `<li>${feature}</li>`).join("")}
+        </ul>
+        <a href="${app.apk}" download>Download APK</a>
+      `;
+      apkList.appendChild(card);
+    });
+  </script>
+</body>
+</html>

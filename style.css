@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+header {
+  background: #1f1f1f;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #00ff99;
+  box-shadow: 0 4px 10px rgba(0, 255, 128, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #00ffcc;
+  letter-spacing: 1px;
+}
+
+#search {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 500px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+  background-color: #2e2e2e;
+  color: #fff;
+}
+
+#search:focus {
+  box-shadow: 0 0 10px #00ff99;
+}
+
+main {
+  padding: 30px 20px;
+}
+
+.apk-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.apk-card {
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 16px;
+  width: 260px;
+  box-shadow: 0 0 15px rgba(0, 255, 128, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apk-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 128, 0.4);
+}
+
+.apk-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #00ff99;
+  background: #000;
+}
+
+.apk-card h2 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #00ffcc;
+}
+
+.apk-card p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.apk-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: linear-gradient(145deg, #00ff99, #00cc66);
+  color: #000;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.apk-card a:hover {
+  background: linear-gradient(145deg, #00cc66, #00ff99);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1f1f1f;
+  color: #ccc;
+  border-top: 1px solid #333;
+  margin-top: 40px;
+}
+
+.mod-features {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.mod-features li::before {
+  content: "✔ ";
+  color: #00ff99;
+}
