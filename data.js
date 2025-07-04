@@ -45,5 +45,18 @@ const appData = [
       "✅Auto Update Hooking",
       "✅ SeekBar Hooking"
     ]
+  },
+    {
+    id: "Hex Engine",
+    name: "Hex Engine_Pro ",
+    version: "4.0",
+    size: "15 MB",
+    icon: "Hex.png",
+    apk: "Hex Engine_1.0.apk",
+    developer: "Hex Engine / Developed by @Gura Mods",
+    updated: "July 2025", 
+    modFeatures: [
+      "✅fully Accurated "
+    ]
   }
 ];
