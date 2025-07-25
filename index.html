@@ -191,9 +191,20 @@
 <body>
 
   <!-- 🔊 Background Music -->
-  <audio autoplay loop hidden>
-    <source src="Fade.mp3" type="audio/mpeg">
+<!-- 🎵 Music Player -->
+<div style="text-align: center; margin: 20px 0;">
+  <label for="musicSelect" style="font-weight: bold; font-size: 18px;">🎧 Choose Music: </label>
+  <select id="musicSelect" style="padding: 8px 12px; border-radius: 10px; background: #2e2e2e; color: #fff; border: none;">
+    <option value="Fade.mp3">Alan Walker - Fade</option>
+    <option value="Spectre.mp3">Alan Walker - Spectre</option>
+    <option value="NCS.mp3">NCS - Free Music</option>
+  </select>
+  <audio id="bgMusic" autoplay loop>
+    <source src="Fade.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
   </audio>
+</div>
+
 
   <header>
     <h1>DarkWolf</h1>
@@ -214,37 +225,50 @@
     <p>© 2025 DarkWolf 🦝</p>
   </footer>
 
-  <script src="data.js"></script>
-  <script>
-    const apkList = document.getElementById("apkList");
-    const searchBox = document.getElementById("search");
+<script src="data.js"></script>
+<script>
+  const apkList = document.getElementById("apkList");
+  const searchBox = document.getElementById("search");
+  const musicSelect = document.getElementById("musicSelect");
+  const bgMusic = document.getElementById("bgMusic");
 
-    function renderApps(data) {
-      apkList.innerHTML = "";
-      data.forEach(app => {
-        const card = document.createElement("div");
-        card.className = "apk-card";
-        card.innerHTML = `
-          <img src="${app.icon}" alt="App Icon">
-          <h2>${app.name}</h2>
-          <p>Version: ${app.version}</p>
-          <p>Size: ${app.size}</p>
-          <ul class="mod-features">
-            ${app.modFeatures.map(f => `<li>${f}</li>`).join("")}
-          </ul>
-          <a href="${app.apk}" download>Download</a>
-        `;
-        apkList.appendChild(card);
-      });
-    }
+  // ✅ Music selection handler
+  musicSelect.addEventListener("change", () => {
+    const selectedTrack = musicSelect.value;
+    bgMusic.src = selectedTrack;
+    bgMusic.play();
+  });
 
-    renderApps(appData);
-
-    searchBox.addEventListener("input", () => {
-      const term = searchBox.value.toLowerCase();
-      const filtered = appData.filter(app => app.name.toLowerCase().includes(term));
-      renderApps(filtered);
+  // ✅ Render APK cards
+  function renderApps(data) {
+    apkList.innerHTML = "";
+    data.forEach(app => {
+      const card = document.createElement("div");
+      card.className = "apk-card";
+      card.innerHTML = `
+        <img src="${app.icon}" alt="App Icon">
+        <h2>${app.name}</h2>
+        <p>Version: ${app.version}</p>
+        <p>Size: ${app.size}</p>
+        <ul class="mod-features">
+          ${app.modFeatures.map(f => `<li>${f}</li>`).join("")}
+        </ul>
+        <a href="${app.apk}" download>Download</a>
+      `;
+      apkList.appendChild(card);
     });
-  </script>
+  }
+
+  // ✅ Initial render
+  renderApps(appData);
+
+  // ✅ Search filter
+  searchBox.addEventListener("input", () => {
+    const term = searchBox.value.toLowerCase();
+    const filtered = appData.filter(app => app.name.toLowerCase().includes(term));
+    renderApps(filtered);
+  });
+</script>
+
 </body>
 </html>
