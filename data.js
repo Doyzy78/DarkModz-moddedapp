@@ -152,5 +152,45 @@ const appData = [
       "🧮 Min Lane Change Speed",
       "🏃‍♂️ High Jump Boost"
     ]
+  },
+  {
+    id: "stunt-car-extreme-32bit",
+    name: "[Stunt Car Extreme] [32BIT]",
+    version: "AutoUpdate",
+    size: "2 MB",
+    icon: "Stunt.png",
+    apk: "STUNT CAR EXTREME [ 32BIT].lua",
+    developer: "DarkWolf",
+    updated: "July 2025",
+    modFeatures: [
+      "⭐ Max XP", 
+      "🚀 Infinite Nitro",
+      "💎 Don't Spend Gems",
+      "🪙 Don't Spend Coins",
+      "🎫 Don't Spend Tickets",
+      "🔧 Unlock All Car Parts",
+      "🚘 Unlock All Cars",
+      "🛒 Unlimited Purchases"
+    ]
+  },
+  {
+    id: "stunt-car-extreme-64bit",
+    name: "[Stunt Car Extreme] [64BIT]",
+    version: "AutoUpdate",
+    size: "2 MB",
+    icon: "Stunt.png",
+    apk: "STUNT CAR EXTREME [ 64BIT].lua",
+    developer: "DarkWolf",
+    updated: "July 2025",
+    modFeatures: [
+      "⭐ Max XP", 
+      "🚀 Infinite Nitro",
+      "💎 Don't Spend Gems",
+      "🪙 Don't Spend Coins",
+      "🎫 Don't Spend Tickets",
+      "🔧 Unlock All Car Parts",
+      "🚘 Unlock All Cars",
+      "🛒 Unlimited Purchases"
+    ]
   }
 ];
