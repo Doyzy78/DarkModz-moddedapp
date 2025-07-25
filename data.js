@@ -192,5 +192,55 @@ const appData = [
       "🚘 Unlock All Cars",
       "🛒 Unlimited Purchases"
     ]
+  },
+  {
+    id: "Mad-Zombie-32bit",
+    name: "[MAD ZOMBIES] [32BIT]",
+    version: "AutoUpdate",
+    size: "2 MB",
+    icon: "MadZombie.png",
+    apk: "MAD ZOMBIES [32BIT].lua",
+    developer: "DarkWolf",
+    updated: "July 2025",
+    modFeatures: [
+      "💥 Increased Damage",
+      "🎯 Penetration",
+      "🔫 Infinite Ammo",
+      "💰 Infinite Money",
+      "🏅 Infinite Gold",
+      "🥇 Infinite Medals",
+      "📈 Level Up",
+      "⚡ Increase XP",
+      "💣 Infinite Grenades",
+      "🩹 Infinite Medkits",
+      "🔋 No Energy Cost",
+      "🏆 Unlock All Achievements",
+      "🛡️ God Mode"
+    ]
+  },
+  {
+    id: "Mad-Zombie-64bit",
+    name: "[MAD ZOMBIES] [64BIT]",
+    version: "AutoUpdate",
+    size: "2 MB",
+    icon: "MadZombie.png",
+    apk: "MAD ZOMBIES [64BIT].lua",
+    developer: "DarkWolf",
+    updated: "July 2025",
+    modFeatures: [
+      "💥 Increased Damage",
+      "🎯 Penetration",
+      "🔫 Infinite Ammo",
+      "💰 Infinite Money",
+      "🏅 Infinite Gold",
+      "🥇 Infinite Medals",
+      "📈 Level Up",
+      "⚡ Increase XP",
+      "💣 Infinite Grenades",
+      "🩹 Infinite Medkits",
+      "🔋 No Energy Cost",
+      "🏆 Unlock All Achievements",
+      "🛡️ God Mode"
+    ]
   }
 ];
