@@ -5,11 +5,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>DarkModz-Joker</title>
   <link rel="stylesheet" href="style.css"/>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #121212;
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: #1f1f1f;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    #search {
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    .telegram-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #0088cc;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .telegram-btn img {
+      width: 20px;
+      height: 20px;
+    }
+    .apk-list {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .apk-card {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .apk-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .apk-card h2 {
+      margin-top: 10px;
+    }
+    .apk-card ul {
+      padding-left: 18px;
+    }
+    .apk-card a {
+      display: inline-block;
+      margin-top: 10px;
+      background: #28a745;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #1f1f1f;
+      color: #aaa;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Joker-Dev</h1>
-    <input type="text" id="search" placeholder="Search APKs...">
+    <h1>DarkWolf</h1>
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <a href="https://t.me/NepXModsChat" target="_blank" class="telegram-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Logo">
+        Join Telegram
+      </a>
+      <input type="text" id="search" placeholder="Search">
+    </div>
   </header>
 
   <main>
@@ -17,7 +102,7 @@
   </main>
 
   <footer>
-    <p>© 2025 Modded Apk </p>
+    <p>© 2025 Darkwolf🦝</p>
   </footer>
 
   <script src="data.js"></script>
@@ -35,7 +120,7 @@
         <ul class="mod-features">
           ${app.modFeatures.map(feature => `<li>${feature}</li>`).join("")}
         </ul>
-        <a href="${app.apk}" download>Download APK</a>
+        <a href="${app.apk}" download>Download</a>
       `;
       apkList.appendChild(card);
     });
