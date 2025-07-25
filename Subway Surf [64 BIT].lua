@@ -127,59 +127,48 @@ end
 local function injectAssembly(offset, value)
     local addr = X_X[UwU] + offset
 
-    -- Force 32-bit check (optional safeguard)
-    if gg.getTargetInfo().x64 then
-        gg.alert("❌ This patch only works on 32-bit (ARMv7) targets.")
+    -- ✅ Ensure 64-bit (ARMv8) target
+    if not gg.getTargetInfo().x64 then
+        gg.alert("❌ This patch only supports 64-bit (ARMv8) targets.")
         os.exit()
     end
 
+    -- ✅ Boolean values
     if value == true then
-        -- MOV R0, #1; BX LR
+        -- MOV W0, #1; RET
         gg.setValues({
-            {address = addr, flags = 4, value = "h0120A0E3"},
-            {address = addr + 0x4, flags = 4, value = "h1EFF2FE1"}
+            {address = addr, flags = 4, value = "h20008052"},   -- MOV W0, #1
+            {address = addr + 0x4, flags = 4, value = "hC0035FD6"} -- RET
         })
 
     elseif value == false then
-        -- MOV R0, #0; BX LR
+        -- MOV W0, #0; RET
         gg.setValues({
-            {address = addr, flags = 4, value = "h0020A0E3"},
-            {address = addr + 0x4, flags = 4, value = "h1EFF2FE1"}
+            {address = addr, flags = 4, value = "h00008052"},   -- MOV W0, #0
+            {address = addr + 0x4, flags = 4, value = "hC0035FD6"} -- RET
         })
 
-    elseif value <= 0xFF then
-        -- Small constant: MOV R0, #val; BX LR
+    -- ✅ 0 - 65535 range: use direct MOV W0, #value
+    elseif type(value) == "number" and value >= 0 and value <= 65535 then
         gg.setValues({
-            {address = addr, flags = 4, value = string.format("~A MOV R0, #%d", value)},
-            {address = addr + 0x4, flags = 4, value = "~A BX LR"}
+            {address = addr, flags = 4, value = string.format("~A MOV W0, #%d", value)},
+            {address = addr + 0x4, flags = 4, value = "~A RET"}
         })
 
-    elseif value <= 0xFFFF then
-        -- Medium constant: use MOV + ORR (manual handling optional)
+    -- ✅ 65536 - 999,999,999: use LDR W0 from literal pool
+    elseif type(value) == "number" and value <= 999999999 then
         gg.setValues({
-            {address = addr, flags = 4, value = string.format("~A MOV R0, #%d", value)},
-            {address = addr + 0x4, flags = 4, value = "~A BX LR"}
-        })
-
-    elseif value <= 0xFFFFFFFF then
-        -- Large constant: use LDR literal pool
-        -- We place the constant right after RET so LDR R0, =value works.
-        -- This is safe because GameGuardian doesn't execute code, only patches it.
-
-        -- LDR R0, [PC, #0]; BX LR
-        -- At addr: LDR R0, [PC, #0] (offset = 0 since literal is just after)
-        -- At addr + 4: BX LR
-        -- At addr + 8: actual constant (DWORD)
-        gg.setValues({
-            {address = addr, flags = 4, value = "h0000A0E5"},      -- LDR R0, [PC]
-            {address = addr + 0x4, flags = 4, value = "h1EFF2FE1"}, -- BX LR
+            {address = addr, flags = 4, value = "h00000058"},     -- LDR W0, [PC, #0]
+            {address = addr + 0x4, flags = 4, value = "hC0035FD6"}, -- RET
             {address = addr + 0x8, flags = gg.TYPE_DWORD, value = value}
         })
 
+    -- ❌ Not supported (outside 9-digit limit)
     else
-        gg.alert("❌ Value too large for 32-bit instruction (max 0xFFFFFFFF)")
+        gg.alert("❌ Unsupported value. Only 0 to 999,999,999 (9-digit max) allowed.")
     end
 end
+
 
 -- Set up target game environment for memory patching
 ::GET_READY::
