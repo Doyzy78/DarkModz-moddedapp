@@ -58,5 +58,52 @@ const appData = [
     modFeatures: [
       "✅fully Accurated "
     ]
+  },
+  {
+    id: "subway-surf-32bit",
+    name: "[Subway Surf] [32BIT]",
+    version: "AutoUpdate",
+    size: "2MB",
+    icon: "subway.png",
+    developer: "DarkWolf",
+    updated: "July 2025",
+modFeatures: [
+  "🌟 Infinite Stars",
+  "💰 Remove Coin Pickup",
+  "🕊️ Fly Mode",
+  "⚡ Run Fast",
+  "🔋 Unlimited Power",
+  "🚄 Pass Through Trains",
+  "🚄 Pass Through Trains (2)",
+  "🧍‍♂️ Walk While Flying",
+  "🎁 Everything Unlimited",
+  "🛒 Internal Purchases",
+  "🆓 Free Purchases",
+  "🏆 Unlock Achievements",
+  "💸 Double Coins",
+  "🎥 Follow Camera",
+  "🛡️ No Impact",
+  "🛡️ No Impact (2)",
+  "🛡️ No Impact (3)",
+  "💀 Immortal Mode",
+  "💀 Immortal Mode (2)",
+  "🌌 Gravity Off",
+  "❄️ Freeze Screen",
+  "🚀 Infinite Jump",
+  "🔁 Fast Lane Change",
+  "👤 Unlock Characters",
+  "👤 Unlock Characters (2)",
+  "👤 Unlock Characters (3)",
+  "👤 Unlock Characters (4)",
+  "🧭 Teleport",
+  "👟 Invisible Super Sneakers",
+  "🚀 Invisible Jetpack",
+  "🦘 Invisible Pogo Stick",
+  "🧲 Invisible Magnet",
+  "🛹 Invisible Hoverboard",
+  "🧮 Min Lane Change Speed",
+  "🏃‍♂️ High Jump Boost"
+]
+    directDownload: "https://www.mediafire.com/file/mhcnpm13kj8dfo8/Subway+Surf+[32+BIT].lua/file"
   }
 ];
