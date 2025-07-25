@@ -65,6 +65,7 @@ const appData = [
     version: "AutoUpdate",
     size: "2 MB",
     icon: "subway.png",
+    apk: "Subway Surf [32 BIT].lua",
     developer: "DarkWolf",
     updated: "July 2025",
     modFeatures: [
