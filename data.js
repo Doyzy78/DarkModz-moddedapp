@@ -21,7 +21,7 @@ const appData = [
     version: "5.0.8",
     size: "2 MB",
     icon: "Melolo.png",
-    apk: "Melolo_5.0.8.apk",
+    apk: "https://www.mediafire.com/file/qt3678w5rpy913w/Melolo_5.0.8.apk/file",
     developer: "DoyMods",
     updated: "Dec,20,2025",
     modFeatures: [
