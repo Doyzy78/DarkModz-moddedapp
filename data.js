@@ -16,6 +16,25 @@ const appData = [
     ]
   },
   {
+    id: "Melolo",
+    name: "[Melolo] [32BIT]",
+    version: "5.0.8",
+    size: "2 MB",
+    icon: "Melolo.png",
+    apk: "Melolo_5.0.8.apk",
+    developer: "DoyMods",
+    updated: "Dec,20,2025",
+    modFeatures: [
+      "✅ NO ADS"      
+    ]
+  },
+
+
+
+
+
+  
+  {
     id: "Typing Engine",
     name: "Typing Engine",
     version: "2.0",
