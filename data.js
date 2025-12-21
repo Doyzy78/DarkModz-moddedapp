@@ -29,6 +29,20 @@ const appData = [
     ]
   },
 
+  
+    id: "PicsArt",
+    name: "[PicsArt] [32BIT]",
+    version: "28.9.11",
+    size: "175.82M",
+    icon: "PicsArt.png",
+    apk: "https://www.mediafire.com/file/qt3678w5rpy913w/Melolo_5.0.8.apk/file",
+    developer: "DoyMods",
+    updated: "Dec,21,2025",
+    modFeatures: [
+      "✅ NO ADS",
+      "✅ UNLOCKED ALL PRO FEATURE
+    ]
+  },
 
 
     {
