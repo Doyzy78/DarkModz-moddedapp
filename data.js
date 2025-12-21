@@ -1,96 +1,12 @@
 const appData = [
   {
-    id: "GG TOOLS",
-    name: "GG TOOLS Pro",
-    version: "2.0",
-    size: "15 MB",
-    icon: "icon.png",
-    apk: "GG TOOLS_2.0.apk",
-    developer: "GG TOOLS / Developed by Joker Devs",
-    updated: "July 2025",
-    modFeatures: [
-      "✅ Value to Arm",
-      "✅ AutoUpdate Script",
-      "✅ SCRIPT Normal",
-      "✅ Menu Builder"
-    ]
-  },
-  {
-    id: "Melolo",
-    name: "[Melolo] [32BIT]",
-    version: "5.0.8",
-    size: "102 MB",
-    icon: "Melolo.png",
-    apk: "https://www.mediafire.com/file/qt3678w5rpy913w/Melolo_5.0.8.apk/file",
-    developer: "DoyMods",
-    updated: "Dec,20,2025",
-    modFeatures: [
-      "✅ NO ADS"      
-    ]
-  },
-  {
-
-  
-    id: "PicsArt",
-    name: "[PicsArt] [32BIT]",
-    version: "28.9.11",
-    size: "175.82M",
-    icon: "PicsArt.png",
-    apk: "https://www.mediafire.com/file/qt3678w5rpy913w/Melolo_5.0.8.apk/file",
-    developer: "DoyMods",
-    updated: "Dec,21,2025",
-    modFeatures: [
-      "✅ NO ADS",
-      "✅ UNLOCKED ALL PRO FEATURE"
-    ]
-  },
-
-
-    {
-    id: "KineMaster",
-    name: "[KineMaster] [32BIT]",
-    version: "8.0.7.35886.GP",
-    size: "179.72M",
-    icon: "KineMaster.png",
-    apk: "https://www.mediafire.com/file/i094myt65rt8ohz/KineMaster_8.0.7.35886.GP_apks_kill.apk/file",
-    developer: "DoyMods",
-    updated: "Dec,21,2025",
-    modFeatures: [
-      "✅ NO ADS",
-      "✅ ALL PREMIUM Unlocked"
-      
-    ]
-  },
-
-
-
-
-  
-  {
-    id: "Typing Engine",
-    name: "Typing Engine",
-    version: "2.0",
-    size: "10 MB",
-    icon: "type.png",
-    apk: "Typing Engine_2.0.apk",
-    developer: "Typing Engine / Developed by Joker Devs",
-    updated: "July 2025",
-    modFeatures: [
-      "✅ Automatic Typing",
-      "✅ Accurate Value Input"
-    ]
-  },
-  {
-    id: "Sb HookGen",
-const appData = [
-  {
     id: "gg-tools",
     name: "GG TOOLS Pro",
     version: "2.0",
     size: "15 MB",
     icon: "icon.png",
     apk: "GG_TOOLS_2.0.apk",
-    developer: "GG TOOLS / Developed by Joker Devs",
+    developer: "GG TOOLS / Joker Devs",
     updated: "July 2025",
     modFeatures: [
       "✅ Value to Arm",
@@ -116,7 +32,7 @@ const appData = [
     version: "28.9.11",
     size: "175.82 MB",
     icon: "PicsArt.png",
-    apk: "https://www.mediafire.com/file/YOUR_PICSART_LINK/PicsArt_28.9.11.apk/file",
+    apk: "https://www.mediafire.com/file/PICSART_LINK/PicsArt_28.9.11.apk/file",
     developer: "DoyMods",
     updated: "Dec 21, 2025",
     modFeatures: [
@@ -145,7 +61,7 @@ const appData = [
     size: "10 MB",
     icon: "type.png",
     apk: "Typing_Engine_2.0.apk",
-    developer: "Typing Engine / Developed by Joker Devs",
+    developer: "Joker Devs",
     updated: "July 2025",
     modFeatures: [
       "✅ Automatic Typing",
@@ -159,7 +75,7 @@ const appData = [
     size: "15 MB",
     icon: "Sb.png",
     apk: "Sb_HookGen_4.0.apk",
-    developer: "Sb HookGen / Developed by Sb Mods",
+    developer: "Sb Mods",
     updated: "July 2025",
     modFeatures: [
       "✅ Normal Hooking",
@@ -176,11 +92,9 @@ const appData = [
     size: "15 MB",
     icon: "Hex.png",
     apk: "Hex_Engine_4.0.apk",
-    developer: "Hex Engine / Developed by @Gura Mods",
+    developer: "Gura Mods",
     updated: "July 2025",
     modFeatures: ["✅ Fully Accurate"]
-  }
-]
   },
 
   {
@@ -189,46 +103,10 @@ const appData = [
     version: "AutoUpdate",
     size: "2 MB",
     icon: "subway.png",
-    apk: "Script/Subway Surf [32 BIT].lua",
+    apk: "Script/Subway_Surf_32BIT.lua",
     developer: "DarkWolf",
     updated: "July 2025",
-    modFeatures: [
-      "🌟 Infinite Stars",
-      "💰 Remove Coin Pickup",
-      "🕊️ Fly Mode",
-      "⚡ Run Fast",
-      "🔋 Unlimited Power",
-      "🚄 Pass Through Trains",
-      "🚄 Pass Through Trains (2)",
-      "🧍‍♂️ Walk While Flying",
-      "🎁 Everything Unlimited",
-      "🛒 Internal Purchases",
-      "🆓 Free Purchases",
-      "🏆 Unlock Achievements",
-      "💸 Double Coins",
-      "🎥 Follow Camera",
-      "🛡️ No Impact",
-      "🛡️ No Impact (2)",
-      "🛡️ No Impact (3)",
-      "💀 Immortal Mode",
-      "💀 Immortal Mode (2)",
-      "🌌 Gravity Off",
-      "❄️ Freeze Screen",
-      "🚀 Infinite Jump",
-      "🔁 Fast Lane Change",
-      "👤 Unlock Characters",
-      "👤 Unlock Characters (2)",
-      "👤 Unlock Characters (3)",
-      "👤 Unlock Characters (4)",
-      "🧭 Teleport",
-      "👟 Invisible Super Sneakers",
-      "🚀 Invisible Jetpack",
-      "🦘 Invisible Pogo Stick",
-      "🧲 Invisible Magnet",
-      "🛹 Invisible Hoverboard",
-      "🧮 Min Lane Change Speed",
-      "🏃‍♂️ High Jump Boost"
-    ]
+    modFeatures: ["🌟 Infinite Stars", "💰 Unlimited Coins", "🛡️ God Mode"]
   },
   {
     id: "subway-surf-64bit",
@@ -236,46 +114,10 @@ const appData = [
     version: "AutoUpdate",
     size: "2 MB",
     icon: "subway.png",
-    apk: "Subway Surf [64 BIT].lua",
+    apk: "Script/Subway_Surf_64BIT.lua",
     developer: "DarkWolf",
     updated: "July 2025",
-    modFeatures: [
-      "🌟 Infinite Stars",
-      "💰 Remove Coin Pickup",
-      "🕊️ Fly Mode",
-      "⚡ Run Fast",
-      "🔋 Unlimited Power",
-      "🚄 Pass Through Trains",
-      "🚄 Pass Through Trains (2)",
-      "🧍‍♂️ Walk While Flying",
-      "🎁 Everything Unlimited",
-      "🛒 Internal Purchases",
-      "🆓 Free Purchases",
-      "🏆 Unlock Achievements",
-      "💸 Double Coins",
-      "🎥 Follow Camera",
-      "🛡️ No Impact",
-      "🛡️ No Impact (2)",
-      "🛡️ No Impact (3)",
-      "💀 Immortal Mode",
-      "💀 Immortal Mode (2)",
-      "🌌 Gravity Off",
-      "❄️ Freeze Screen",
-      "🚀 Infinite Jump",
-      "🔁 Fast Lane Change",
-      "👤 Unlock Characters",
-      "👤 Unlock Characters (2)",
-      "👤 Unlock Characters (3)",
-      "👤 Unlock Characters (4)",
-      "🧭 Teleport",
-      "👟 Invisible Super Sneakers",
-      "🚀 Invisible Jetpack",
-      "🦘 Invisible Pogo Stick",
-      "🧲 Invisible Magnet",
-      "🛹 Invisible Hoverboard",
-      "🧮 Min Lane Change Speed",
-      "🏃‍♂️ High Jump Boost"
-    ]
+    modFeatures: ["🌟 Infinite Stars", "💰 Unlimited Coins", "🛡️ God Mode"]
   },
   {
     id: "stunt-car-extreme-32bit",
@@ -283,18 +125,13 @@ const appData = [
     version: "AutoUpdate",
     size: "2 MB",
     icon: "Stunt.png",
-    apk: "STUNT CAR EXTREME [ 32BIT].lua",
+    apk: "STUNT_CAR_EXTREME_32BIT.lua",
     developer: "DarkWolf",
     updated: "July 2025",
     modFeatures: [
-      "⭐ Max XP", 
+      "⭐ Max XP",
       "🚀 Infinite Nitro",
-      "💎 Don't Spend Gems",
-      "🪙 Don't Spend Coins",
-      "🎫 Don't Spend Tickets",
-      "🔧 Unlock All Car Parts",
-      "🚘 Unlock All Cars",
-      "🛒 Unlimited Purchases"
+      "🚘 Unlock All Cars"
     ]
   },
   {
@@ -303,67 +140,42 @@ const appData = [
     version: "AutoUpdate",
     size: "2 MB",
     icon: "Stunt.png",
-    apk: "STUNT CAR EXTREME [ 64BIT].lua",
+    apk: "STUNT_CAR_EXTREME_64BIT.lua",
     developer: "DarkWolf",
     updated: "July 2025",
     modFeatures: [
-      "⭐ Max XP", 
+      "⭐ Max XP",
       "🚀 Infinite Nitro",
-      "💎 Don't Spend Gems",
-      "🪙 Don't Spend Coins",
-      "🎫 Don't Spend Tickets",
-      "🔧 Unlock All Car Parts",
-      "🚘 Unlock All Cars",
-      "🛒 Unlimited Purchases"
+      "🚘 Unlock All Cars"
     ]
   },
   {
-    id: "Mad-Zombie-32bit",
+    id: "mad-zombies-32bit",
     name: "[MAD ZOMBIES] [32BIT]",
     version: "AutoUpdate",
     size: "2 MB",
     icon: "MadZombie.png",
-    apk: "MAD ZOMBIES [32BIT].lua",
+    apk: "MAD_ZOMBIES_32BIT.lua",
     developer: "DarkWolf",
     updated: "July 2025",
     modFeatures: [
       "💥 Increased Damage",
-      "🎯 Penetration",
       "🔫 Infinite Ammo",
-      "💰 Infinite Money",
-      "🏅 Infinite Gold",
-      "🥇 Infinite Medals",
-      "📈 Level Up",
-      "⚡ Increase XP",
-      "💣 Infinite Grenades",
-      "🩹 Infinite Medkits",
-      "🔋 No Energy Cost",
-      "🏆 Unlock All Achievements",
       "🛡️ God Mode"
     ]
   },
   {
-    id: "Mad-Zombie-64bit",
+    id: "mad-zombies-64bit",
     name: "[MAD ZOMBIES] [64BIT]",
     version: "AutoUpdate",
     size: "2 MB",
     icon: "MadZombie.png",
-    apk: "MAD ZOMBIES [64BIT].lua",
+    apk: "MAD_ZOMBIES_64BIT.lua",
     developer: "DarkWolf",
     updated: "July 2025",
     modFeatures: [
       "💥 Increased Damage",
-      "🎯 Penetration",
       "🔫 Infinite Ammo",
-      "💰 Infinite Money",
-      "🏅 Infinite Gold",
-      "🥇 Infinite Medals",
-      "📈 Level Up",
-      "⚡ Increase XP",
-      "💣 Infinite Grenades",
-      "🩹 Infinite Medkits",
-      "🔋 No Energy Cost",
-      "🏆 Unlock All Achievements",
       "🛡️ God Mode"
     ]
   }
