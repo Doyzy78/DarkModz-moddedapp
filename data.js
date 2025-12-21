@@ -40,7 +40,7 @@ const appData = [
     updated: "Dec,21,2025",
     modFeatures: [
       "✅ NO ADS",
-      "✅ UNLOCKED ALL PRO FEATURE
+      "✅ UNLOCKED ALL PRO FEATURE"
     ]
   },
 
