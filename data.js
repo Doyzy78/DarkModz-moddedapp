@@ -31,6 +31,23 @@ const appData = [
 
 
 
+    {
+    id: "KineMaster",
+    name: "[KineMaster] [32BIT]",
+    version: "8.0.7.35886.GP",
+    size: "179.72M",
+    icon: "KineMaster.png",
+    apk: "https://www.mediafire.com/file/i094myt65rt8ohz/KineMaster_8.0.7.35886.GP_apks_kill.apk/file",
+    developer: "DoyMods",
+    updated: "Dec,21,2025",
+    modFeatures: [
+      "✅ NO ADS",
+      "✅ ALL PREMIUM Unlocked"
+      
+    ]
+  },
+
+
 
 
   
