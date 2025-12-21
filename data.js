@@ -1,3 +1,4 @@
+
 const appData = [
   {
     id: "gg-tools",
@@ -32,7 +33,7 @@ const appData = [
     version: "28.9.11",
     size: "175.82 MB",
     icon: "PicsArt.png",
-    apk: "https://www.mediafire.com/file/PICSART_LINK/PicsArt_28.9.11.apk/file",
+    apk: "https://www.mediafire.com/file/nlampueeecmlgw3/Picsart_28.9.11.apk/file",
     developer: "DoyMods",
     updated: "Dec 21, 2025",
     modFeatures: [
