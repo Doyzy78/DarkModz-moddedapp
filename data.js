@@ -28,6 +28,7 @@ const appData = [
       "✅ NO ADS"      
     ]
   },
+  {
 
   
     id: "PicsArt",
